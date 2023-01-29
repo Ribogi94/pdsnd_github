@@ -203,7 +203,14 @@ def user_stats(df):
     print('-'*40)
 
 def raw_view(df):
-    """Displays raw data if person wants it."""
+    """
+    Displays raw data if user wants it. The user gets asked if he wants to see
+    the foundation of the provided statistic analysis via input. Invalid input
+    gets handled accordingly without crashing the application.
+
+    Args:
+        (DataFrame) df - provided filtered DataFrame for analysis
+    """
     Looper = True
     while Looper:
         input_raw = str(input('Would you like to see the data used for this statistics (yes/no)?')).lower()
