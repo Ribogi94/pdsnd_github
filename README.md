@@ -8,8 +8,10 @@ In an interactive way you can decide what statistics should be shown. This inclu
 * (If they chose month) Which month - January, February, March, April, May, or June?
 * (If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
 
+
 ### How it works?
 The user input get evaluated regarding different options for filtering. If an invalid option was chosen the script will evaluate and ask the user for a correct value. If the set of user inputs for filtering are okay this will generate the required set of filtered data for the necessary statistic analysis. With this filtered data the program performs the necessary functions/statistic information regarding bike data and the user input.
+
 
 ### Install/used packages
 To run this project you need:
@@ -25,10 +27,13 @@ The raw data for analysis can be found here:
 * [here](https://citibikenyc.com/system-data)
 * [here](https://capitalbikeshare.com/system-data)
 
+
 This data was wrangled and converted into three similar csv files used for analysis. They are not included in this repository!
+
 
 ### Issues
 No issues known at the moment. Feel free to find them!
+
 
 ### Credits
 Credits to the UDACITY team for this opportunity to learning to use GIT.
