@@ -109,8 +109,12 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """
+    Displays statistics on the most frequent times of travel.
 
+    Args:
+        (DataFrame) df - filtered bikeshare DataFrame provided for analysis
+    """
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
@@ -128,8 +132,12 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """
+    Displays statistics on the most popular stations and trip.
 
+    Args:
+        (DataFrame) df - filtered bikeshare DataFrame provided for analysis
+    """
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
@@ -148,8 +156,12 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """
+    Displays statistics on the total and average trip duration.
 
+    Args:
+        (DataFrame) df - filtered bikeshare DataFrame provided for analysis
+    """
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
@@ -166,7 +178,12 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """
+    Displays statistics on bikeshare users.
+
+    Args:
+        (DataFrame) df - filtered bikeshare DataFrame provided for analysis
+    """
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
